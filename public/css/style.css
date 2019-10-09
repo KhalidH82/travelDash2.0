@@ -1,10 +1,6 @@
-body {
-  text-align: center;
-  font-weight: bolder;
-  background-position: center;
-  background-attachment: fixed;
-  padding: 25px;
-  margin: 0 auto;
+#map {
+  height: 100%;
+  background-color: grey;
 }
 
 /* Styles for Boarding Pass --->  Lennart Hase https://codepen.io/motorlatitude/pen/JhuoB -->*/
@@ -435,4 +431,11 @@ body {
 
 .airlineslip {
   left: 455px;
+}
+
+@media only screen and (max-width: 600px) {
+  .box {
+    margin-top: 175px;
+    transform: rotate(90deg);
+  }
 }

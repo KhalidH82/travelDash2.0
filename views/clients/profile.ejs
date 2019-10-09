@@ -3,23 +3,20 @@
 	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 		<div class="navbar-nav">
 			<a href='/loggedin'>
-				<button class="btn btn-primary">Home</button></a>
+				<button class="button is-primary">Home</button></a>
 			<a href='/clients/'>
-				<button class="btn btn-primary">View All Clients</button></a>
+				<button class="button is-primary">View All Clients</button></a>
 			<a href='/clients/search'>
-				<button class="btn btn-primary">Destination Search</button></a>
+				<button class="button is-primary">Destination Search</button></a>
 
 		</div>
 	</div>
 </nav>
-<a class="editbutt" href='/clients/<%=data.id%>/editclient'><input class="btn btn-primary" type="submit"
+<a class="" href='/clients/<%=data.id%>/editclient'><input class="button is-warning" type="submit"
 		value="Edit Profile" /></a>
 
 <!--Client profile page which displays full profile of client -->
-
-
-<div class='client'>
-
+<!-- <div class='client'>
 	<h2><%= data.fname +' '+ data.lname %></h2>
 	<p><%= data.dob %></p>
 	<p><%= data.sex %></p>
@@ -28,10 +25,7 @@
 	<p><%= data.cellphone %></p>
 	<p><%= data.email %></p>
 	<p><%= data.type %></p>
-</div>
-
-
-
+</div> -->
 <!-- Boarding pass design belongs to Lennart Hase https://codepen.io/motorlatitude/pen/JhuoB -->
 
 <div class="box">
