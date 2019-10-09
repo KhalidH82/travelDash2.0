@@ -1,0 +1,19 @@
+<% include ./partials/boilerplate.ejs %>
+
+<!--Signup page that Posts users database -->
+
+<div class="">
+	<form action="/clients/users" method="POST">
+		<lable>
+			<h1 class="edithead">Username:</h1><br>
+			<input type="text" name="username" /><br></br>
+		</lable>
+		<lable>
+			<h1 class="edithead">Password:</h1><br>
+			<input type="password" name="password" /><br></br>
+		</lable>
+		<button type="submit" class="btn btn-primary" type="submit">Sign Up</button>
+	</form>
+</div>
+
+<% include ./partials/footer.ejs %>

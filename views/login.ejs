@@ -1,0 +1,23 @@
+<% include ./partials/boilerplate.ejs %>
+
+<!--Logs in user and directs to Home page -->
+
+<div class="">
+  <form action="/login" method="post">
+    <label>
+      <h1 class="">Username:</h1>
+      <input type="text" name="username" autocomplete=''>
+    </label><br>
+    <label>
+      <h1 class="">Password:</h1>
+      <input type="password" name="password" autocomplete=''>
+    </label><br>
+    <button type="submit" class="btn btn-primary">Log In</button>
+  </form>
+</div>
+<br>
+<br>
+<br>
+<h1 class=""><a href='/signup'>Don't Have An Account? Sign UP!</a></h1>
+
+<% include ./partials/footer.ejs %>

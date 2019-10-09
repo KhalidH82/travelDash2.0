@@ -1,0 +1,35 @@
+<% include ../partials/boilerplate %>
+
+<!--Creates input fields for user to edit and update clients profile in database -->
+<a href='/loggedin'>
+	<button class="">Home</button></a>
+
+<a href='/clients/'>
+	<button class="">View All Clients</button></a>
+
+<div class="">
+	<form method="POST" action="/clients/<%= data.id%>?_method=PUT">
+		<h1 class="">Edit Client</h1>
+		<input name="id" type="hidden" value="<%= data.id %>"><br>
+		<input name="fname" type="text" value="<%= data.fname %>" /><br>
+		<input name="lname" type="text" value="<%= data.lname %>" /><br>
+		<input name="sex" type="text" value="<%= data.sex %>" /><br>
+		<input name="address" type="text" value="<%= data.address %>" /><br>
+		<input name="homephone" type="text" value="<%= data.homephone %>" /><br>
+		<input name="cellphone" type="text" value="<%= data.cellphone %>" /><br>
+		<input name="email" type="text" value="<%= data.email %>" /><br>
+		<input name="dob" type="text" value="<%= data.dob %>" /><br>
+		<select name="clienttag" type="text"><br>
+			<% type.forEach(type =>{ %>
+			<option value="<%= type.typeid %>"><%= type.type %></option>
+			<% }) %>
+		</select><br>
+		<input class="" type="submit" value="Edit Profile" />
+	</form>
+	<form action="/clients/<%= data.id %>?_method=Delete" method="Post">
+		<input class="" type="Submit" value="Delete" />
+	</form>
+
+</div>
+
+<% include ../partials/footer %>
