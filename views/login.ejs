@@ -1,23 +1,35 @@
 <% include ./partials/boilerplate.ejs %>
+<section class="hero is-large hero-logo">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        Welcome To Travel Dash.
+      </h1>
+      <h2 class="subtitle">
+        Contol your clients information in one centralized platform.
+      </h2>
+    </div>
+    <div class="box login-box">
+      <!--Logs in user and directs to Home page -->
+      <form action="/login" method="post">
+        <label class="label">
+          Username:
+          <input class="input is-small is-rounded is-focused" type="text" name="username" autocomplete=''>
+        </label>
+        <label class="label">
+          Password:
+          <input class="input is-small is-rounded  type=" password" name="password" autocomplete=''>
+        </label>
+        <button type="submit" class="button is-link">Log In</button>
+      </form>
+      <br>
 
-<!--Logs in user and directs to Home page -->
+      <a class="button is-success" href='/signup'>Don't Have An Account? Sign UP!</a>
+    </div>
+  </div>
+</section>
 
-<div class="field">
-  <form action="/login" method="post">
-    <label class="label">
-      Username:
-      <input class="input is-small is-rounded is-focused" type="text" name="username" autocomplete=''>
-    </label><br>
-    <label class="label">
-      Password:
-      <input class="input is-small is-rounded  type=" password" name="password" autocomplete=''>
-    </label><br>
-    <button type="submit" class="button is-link">Log In</button>
-  </form>
-</div>
-<br>
-<br>
-<br>
-<a class="button is-success" href='/signup'>Don't Have An Account? Sign UP!</a>
+
+
 
 <% include ./partials/footer.ejs %>

@@ -1,10 +1,25 @@
-#map {
-  height: 100%;
-  background-color: grey;
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.nav-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
+.hero-logo {
+  background-image: url("http://images.huffingtonpost.com/2014-07-16-HuffPostTravel_TravelAgentsVSInternet_1.jpeg");
+}
+
+.login-box {
+  height: 50%;
+  width: 30%;
+  margin-top: 50px;
+  margin-left: 20px;
+  background-color: #999;
+}
 /* Styles for Boarding Pass --->  Lennart Hase https://codepen.io/motorlatitude/pen/JhuoB -->*/
-.box {
+.box1 {
   position: absolute;
   top: calc(50% - 125px);
   top: -webkit-calc(50% - 125px);
