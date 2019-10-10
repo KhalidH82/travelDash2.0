@@ -3,12 +3,16 @@ body {
 }
 .nav-btn {
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .hero-logo {
   background-image: url("http://images.huffingtonpost.com/2014-07-16-HuffPostTravel_TravelAgentsVSInternet_1.jpeg");
+}
+
+.dash-img {
+  background-image: url("https://www.ecseq.com/img/about-company.png");
 }
 
 .login-box {
@@ -25,7 +29,7 @@ body {
   top: -webkit-calc(50% - 125px);
   left: calc(50% - 300px);
   left: -webkit-calc(50% - 300px);
-  margin-top: 35px;
+  margin-top: 300px;
 }
 
 .ticket {

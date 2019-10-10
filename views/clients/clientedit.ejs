@@ -1,4 +1,15 @@
 <% include ../partials/boilerplate %>
+<section class="hero dash-img">
+	<div class="hero-body">
+		<div class="container">
+			<h1 class="title">
+				Edit Client
+			</h1>
+
+		</div>
+	</div>
+</section>
+<br>
 
 <!--Creates input fields for user to edit and update clients profile in database -->
 <a href='/loggedin'>
@@ -7,7 +18,7 @@
 <a href='/clients/'>
 	<button class="button is-primary">View All Clients</button></a>
 
-<div class="field">
+<div class="box login-box field">
 	<form method="POST" action="/clients/<%= data.id%>?_method=PUT">
 		<h1 class="title">Edit Client</h1>
 		<input class="input is-medium" name="id" type="hidden" value="<%= data.id %>"><br>
