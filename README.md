@@ -16,7 +16,7 @@ Project 2 Node/Express.js CRUD
 <h2>Future Build Out</h2>
 <p> Clients will be able to perfrom CRUD functions on their own profile and also view agents profiles and connect with them. There will also be a page where clients can perform searches for hotels and restaurants. The clients will then be able to attach comments that will be added to their profile for agents to plan travel itineraries. Another feature that I would like to implement is a way to have multiple agents that would have their own database of clients accesible through a login.
 <h2> Technologies Used </h2>
-<p> The technologies used in this project are Node.js, Express, Ejs, Javascript, PostgreSQL, CSS, Flexbox, and Bulma. The application also use Authentication for users to have their own personalized client database. These techonologies will utilize the MVC model within the structure of the application. <p>
+<p> The technologies used in this project are Node.js, Express, Ejs, Javascript, PostgreSQL, CSS, Flexbox, and Bulma. The application also uses Authentication for users to have their own personalized client database. These techonologies will utilize the MVC model within the structure of the application. <p>
 <h2> Database structure </h2>
 <p> My databases are going to include a client table as well as a type of client table which will link the client to the type of travel they are inrterested in. I will also have a table which can keep track of users and their stored passwords.</p>
 <h2> Resources </h2>
