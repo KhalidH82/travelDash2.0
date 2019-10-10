@@ -1,7 +1,9 @@
 Project 2 Node/Express.js CRUD
-# travel-Liaison 
 
-<a href="https://travel-liaison.herokuapp.com/"><img src="./public/images/screen.png"></a>
+# travel-Liaison
+
+<a href="https://travel-liaison.herokuapp.com/"><img src="./public/images/screen2.jpg"></a>
+
 <h2> Name and Description </h2>
 <h2> travel Liaison </h2>
 <p> This is a full stack application for Travel Agents to keep track of their clients information stored in clients profiles. It will allow agents to create, edit, update and delete clients profiles based on a variety of information necessary to book travel. There will aso be a search page using Googles API for agents to locate hotels or restaurants in that area. </p>
@@ -21,9 +23,8 @@ Project 2 Node/Express.js CRUD
 <p>Maps:  https://developers.google.com/maps/?hl=en</p><br>
 <p>Boarding Pass: Lennart Hase https://codepen.io/motorlatitude/pen/JhuoB</p><br>
 <p>Fonts: Google Fonts https://fonts.google.com/ </p><br>
-<p>Background Image: Google Images</p> 
-
-
+<p>Background Image: Google Images</p>
 
 # travelDash2.0
+
 # travelDash2.0
