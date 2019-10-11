@@ -23,4 +23,4 @@ const config = process.env.DATABASE_URL || {
   database: process.env.PG_DATABASE
 };
 
-module.exports = config;
+module.exports = conf;
