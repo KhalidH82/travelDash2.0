@@ -20,7 +20,7 @@
     "pbkdf2-password": "^1.2.1",
     "pg-promise": "^8.0.0",
     "session": "^0.1.0",
-    "set-value": "^3.0.1"
+    "set-value": "^4.0.1"
   },
   "devDependencies": {},
   "scripts": {
